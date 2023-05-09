@@ -122,9 +122,6 @@ class _HomePageState extends State<HomePage> {
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                               TextButton(
-                                style: ButtonStyle(//botão do GDA
-                                    backgroundColor: MaterialStateProperty.all(
-                                        const Color.fromARGB(255, 8, 37, 202))),
                                 onPressed: () {
                                   ScaffoldMessenger.of(context).showSnackBar(
                                       const SnackBar(
